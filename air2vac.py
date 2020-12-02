@@ -17,7 +17,7 @@ def air2vac(lambda_air):
     Returns
     -------
     lambda_vac : array of floats
-        output vector of vacuum wavelengths (A).
+        output vector of vacuum wavelengths (in A).
     """
     
     sig= 1.0e4/(lambda_air)
