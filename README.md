@@ -5,6 +5,3 @@
 3) LS_bisect: bivariate data regression line by bisector method
 4) cross_correlate: general maximum cross-correlation finder.
 
-```
-hi
-```
