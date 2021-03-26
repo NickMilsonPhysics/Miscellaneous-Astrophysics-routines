@@ -39,9 +39,11 @@ def cross_correlate( wavelength, reference, spectrum, intervals, k_range = list(
               If True, it will be returned as the third item. Default value is false.
               
     graphs - a Boolean variable for if the user would like plots made of the quadratic fit to the cross
-             correlations, for every wavelength interval. False by default.
-        
+             correlations, for every wavelength interval. False by default. It is highly recomended to have your
+             plots output in their own window (type %matplotlib qt in your ipython conslole). This is so you can 
+             zoom in and out to the areas of interest
              
+        
     Returns:
         
     v_shift - mean radial velocity shift
