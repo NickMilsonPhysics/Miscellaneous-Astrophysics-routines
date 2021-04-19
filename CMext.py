@@ -1,7 +1,6 @@
 
 
 """
-Nick Milson
 Interstellar extinction
 """
 
