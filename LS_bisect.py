@@ -13,8 +13,6 @@ def lsq_bisect(x,y,wx,wy):
     -------
     cov: coefficient vector of the bisector fit line
     """ 
-    
-
    
     cof1= np.polyfit( x, y, 1, w = wy)
     cof2= np.polyfit( y, x, 1, w = wx)
